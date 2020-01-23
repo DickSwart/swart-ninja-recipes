@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.logo-container {
+  background: #CCFF00;
+  padding-top: 30px;
+  width: 120px;
+  height: 120px;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+      height:50px;
+
+      .logo-container {
+        padding-top: 40px;
+      }
+  }
+}
