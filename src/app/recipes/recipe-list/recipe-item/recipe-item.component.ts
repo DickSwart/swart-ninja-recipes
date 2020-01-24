@@ -12,7 +12,7 @@ export class RecipeItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.error('xxxx - ',this.recipe);
+    // console.error('XXX - ',this.recipe);
   }
 
 }
