@@ -7,7 +7,7 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.scss']
 })
 export class RecipeListComponent implements OnInit {
-  public recipes = Recipe[];
+  public recipes: Recipe[] = [];
 
   constructor() { }
 
