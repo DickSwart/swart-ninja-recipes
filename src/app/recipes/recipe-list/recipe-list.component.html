@@ -1,1 +1,12 @@
-<p>recipe-list works!</p>
+<div class="row mb-2">
+  <div class="col-12">
+    <button class="btn btn-success">New Recipe</button>
+  </div>
+</div>
+<div class="row mb-2">
+  <div class="col-12">
+    <div class="list-group">
+      <snr-recipe-item *ngFor="let recipe of recipes" [model]="recipe"></snr-recipe-item>
+    </div>
+  </div>
+</div>
