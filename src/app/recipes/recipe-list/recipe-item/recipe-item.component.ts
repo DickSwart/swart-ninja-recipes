@@ -9,10 +9,9 @@ import { Recipe } from '../../recipe.model';
 export class RecipeItemComponent implements OnInit {
   @Input('model') recipe: Recipe;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     // console.error('XXX - ',this.recipe);
   }
-
 }
